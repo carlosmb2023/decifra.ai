@@ -1,0 +1,100 @@
+/* Futuristic/Tech theme for Decifra.AI Blog */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+  color: #d1d5db;
+}
+h1, h2, h3, .tab-button-futuristic.active {
+  font-family: 'Orbitron', sans-serif;
+}
+.tab-button-futuristic {
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  color: #9ca3af;
+}
+.tab-button-futuristic:hover {
+  color: #38bdf8;
+  border-bottom-color: #38bdf8;
+}
+.tab-button-futuristic.active {
+  color: #22d3ee;
+  border-bottom-color: #22d3ee;
+  font-weight: 700;
+}
+.content-section-futuristic { display: none; }
+.content-section-futuristic.active { display: block; }
+.chart-container-futuristic {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  max-height: 350px;
+  background-color: rgba(30, 41, 59, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .chart-container-futuristic { height: 320px; }
+}
+.interactive-table-futuristic {
+  background-color: #1e293b;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.interactive-table-futuristic th, .interactive-table-futuristic td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+  color: #cbd5e1;
+}
+.interactive-table-futuristic th {
+  color: #67e8f9;
+  background-color: rgba(14, 116, 144, 0.2);
+  font-family: 'Orbitron', sans-serif;
+}
+.interactive-table-futuristic tbody tr:hover {
+  background-color: #334155;
+}
+.details-box-futuristic {
+  border-left: 4px solid #22d3ee;
+  background-color: rgba(15, 23, 42, 0.8);
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin-top: 1.5rem;
+  color: #e2e8f0;
+}
+.details-box-futuristic h4 {
+  color: #67e8f9;
+  font-family: 'Orbitron', sans-serif;
+}
+.card-futuristic {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.1);
+}
+.card-futuristic:hover {
+  box-shadow: 0 0 25px rgba(34, 211, 238, 0.25);
+}
+.summary-futuristic {
+  color: #22d3ee;
+  font-family: 'Orbitron', sans-serif;
+}
+.summary-futuristic:hover {
+  color: #67e8f9;
+}
+.btn-primary-futuristic {
+  background-image: linear-gradient(to right, #0891b2, #22d3ee);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+}
+.btn-primary-futuristic:hover {
+  background-image: linear-gradient(to right, #06b6d4, #67e8f9);
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.5);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,13 @@
+## Arquivo: frontend/public/docs/guia-veo3.pdf
+
+**Instrução do Dr. Decifra:**
+
+Olá, Comandante Carlos! 🚀
+
+Este é um arquivo placeholder para o seu `guia-veo3.pdf`.
+
+Por favor, adicione o arquivo PDF real do "Guia Avançado para Veo 3" (aquele que você me mostrou, `Criação de Prompts para Veo 3_.pdf`) aqui nesta pasta `frontend/public/docs/` e renomeie-o para `guia-veo3.pdf`.
+
+Assim, você poderá linkar para ele no seu site se desejar!
+
+#BoraDescomplicar
