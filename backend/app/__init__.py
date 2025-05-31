@@ -1,1 +1,0 @@
-# Deixa vazio, só para tornar 'app' um pacote Python
